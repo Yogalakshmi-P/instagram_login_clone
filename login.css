@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding: 20px 10px;
+    margin-top: 20px;
+
+}
+
+
+.left{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left img {
+    width: 100%;          /* full width of left container */
+    height: auto;         /* keeps aspect ratio */
+    max-height: 70%;      /* adjust this value based on how much height you want */
+    object-fit: contain;  /* keeps image undistorted inside the space */
+}
+.right{
+    flex: 1;
+    
+}
+
+.right img{
+    display: flex;
+}
+/* .container-child{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+.container-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; /* spacing between elements */
+    padding-right: 100px;
+    background-color: white;
+    font-size: 0.8rem;
+
+}
+.container-child a img {
+    width: 20px;      /* fixed width */
+    height: 20px;     /* fixed height */
+    margin-right: 8px; /* space between icon and text */
+    
+}
+.facebook-login {
+    display: flex;
+    align-items: center; /* vertically center */
+    gap: 5px; /* space between image and text */
+    text-decoration: none; /* optional */
+    color: #4360cc;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.forget-pass{
+    color: #050505;
+    font-weight: bold;
+    margin-top: 20px;
+    
+}
+
+.create-account{
+    color:#4360cc ;
+}
+
+
+/* .container-child h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Pacifico', cursive;
+} */
+
+.container-child input {
+    width: 280px;
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+}
+
+.container-child input:focus {
+    border-color: #a0a0a0;
+}
+
+.container-child button {
+    width: 300px;
+    padding: 12px;
+    background-color: #4c68d7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s;
+}
+
+.container-child button:hover {
+    background-color: #3f56c6;
+}
+
+.divider {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+a {
+    font-size: 14px;
+    color: #385185;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.container-images img {
+    cursor: pointer;
+}
+
+.footer,.footer *{
+    text-align: center;
+    color: #050505;
+    font-size: 0.8rem;
+    opacity: 0.9;
+    margin-top: 10px;
+    
+}
+.footer-list{
+    list-style: none; 
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+select{
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.footer-end{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+
+
