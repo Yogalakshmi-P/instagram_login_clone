@@ -9,7 +9,6 @@ This is a simple **clone of Instagram's login page** built using only **HTML and
 
 ## 📷 Preview
 
-![Screenshot](preview.png)
 
 ## 🚀 Features
 
@@ -17,5 +16,4 @@ This is a simple **clone of Instagram's login page** built using only **HTML and
 - Responsive layout (mobile-friendly)
 - Instagram logo, form, and footer recreated
 
-## 📁 Project Structure
 
